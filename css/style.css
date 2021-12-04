@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    margin: auto;
+    background-image: url(../images/pexels-fauxels-3184292.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+.cabecario{
+
+    background-image: linear-gradient(to top, green, orange, yellow);
+    height: 140px ;
+
+
+}
+
+.cabecario1{
+
+    float: left;
+    width: 30%;
+    display: flex;
+    
+    
+}
+
+.logo1{
+
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 40px;
+    
+
+
+}
+
+.logo2{
+
+    width: 40%;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+
+}  
+
+.org-nav{
+
+    float: right;
+    padding-top: 50px;
+    padding-right: 100px;
+
+
+}
+
+.org-nav li{
+
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+
+
+
+}
+
+.org-nav a{
+
+    text-decoration: none;
+    color: darkgreen;
+
+}
+
+.org-nav a:hover{
+    color: rgba(0, 100, 0, 0.377);
+
+
+}
+
+.apresent{
+    height: 700px;
+    width: 100%;
+
+
+
+}
+
+.text-apre{
+
+    width: 55%;
+    float: left;
+
+
+
+}
+
+.text-apre h4{
+
+    color: yellowgreen;
+    font-size: 35px;
+    padding-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.text-apre p{
+
+    font-size: 20px;
+    color: white;
+    padding-top: 40px;
+    margin-left: 50px;
+
+
+}
+
+
+.img-apre{
+
+    float: right;
+    width: 45%;
+
+}
+
+.img-apre img{
+
+    width: 70%;
+    margin-top: 50px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.651);
+    margin-left: 50px;
+
+}
+
+.img-apre p{
+
+    color: white;
+    padding-top: 30px;
+    margin-left: 60px;
+    width: 70%;
+
+
+
+}
+
+.content{
+
+    background-color: rgb(100, 150, 26);
+    
+
+}
+
+.sessao1{
+
+    display: flex; 
+    padding-top: 30px;
+   
+}
+
+.texto1{
+
+    width: 60%;
+    float: left;
+    font-size: 20px;
+
+}
+
+
+.texto1 h4{
+
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+}
+
+.texto1 p{
+
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.imagem1{
+    width: 40%;
+    float: right;
+
+
+}
+
+.imagem1 img{
+
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.671);
+
+
+}
+
+.sessao2{
+
+    display: flex; 
+    padding-top: 30px;
+   
+}
+
+.texto2{
+
+    width: 60%;
+    float: right;
+    font-size: 20px;
+
+}
+
+
+.texto2 h4{
+
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+}
+
+.texto2 p{
+
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.imagem2{
+
+    width: 40%;
+    float: left;
+
+}
+
+.imagem2 img{
+
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.671);
+
+
+}
+
+
+
+
+.sessao3{
+
+    display: flex; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+}
+
+.texto3{
+
+    font-size: 20px;
+    width: 60%;
+    float: left;
+
+}
+
+
+.texto3 h4{
+
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+
+}
+
+.texto3 p{
+
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.imagem3{
+    width: 40%;
+    float: right;
+    margin-bottom: 20px;
+
+
+}
+
+.imagem3 img{
+
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.671);
+
+
+}
+
+
+
+.rodape{
+
+    height: 50px;
+    background-color: black;
+
+
+}
+
+.rodape-text{
+
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+
+}
+
+.contato{
+
+    height: 600px;
+    background-color: rgb(65, 65, 65);
+
+}
+
+.input{
+
+    float: left;
+    width: 40%;
+    
+
+}
+
+.equipe{
+
+    float: right;
+    width: 40%;
+
+
+}
+
+.email{
+
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+.contact-text{
+
+    width: 500px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 200px;
+
+
+}
+ 
+.input h4{
+
+    color: greenyellow;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 200px;
+
+}
+
+.input button{
+
+    background-color: greenyellow;
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+
+}
+
+.input button:hover{
+
+    background-color: rgba(145, 241, 0, 0.411);
+
+}
+
+.int1{
+
+    width: 400px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin-top: 40px;
+    border-radius: 30px;
+
+
+}
+
+.int1 img{
+
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+
+.nome{
+
+    color: darkgreen;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.text-int{
+
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+
+
+}
+
+
+.int2{
+
+    width: 400px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin-top: 40px;
+    border-radius: 30px;
+
+
+
+}
+
+.int2 img{
+
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+.depressao{
+
+    display: flex;
+    background-color: rgb(163, 163, 0);
+    
+
+   
+
+
+}
+
+
+.depressao div{
+
+    
+    width: 25%;
+    margin: 5% 5% 5% 5%;
+    border-radius: 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.473);
+    
+
+
+
+}
+
+.depressao img{
+
+   width: 60% ;
+   padding-left: 20%;
+   padding-top: 10%;
+   border-radius: 30px;
+
+
+
+}
+
+.depressao p{
+
+    
+    margin-top: 10px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+
+
+}
+
+.pacote1{
+
+    background-color: gold;
+
+
+}
+.pacote2{
+
+    background-color: silver;
+
+
+}
+.pacote3{
+
+    background-color:#CD7F32 ;
+
+
+}
+
+
+.texto-pac{
+
+    
+    padding-right: 1px;
+
+
+}
+
+.preco{
+
+    font-size: 25px
+
+
+}
+
+.botao{
+
+    background-color: rgb(46, 168, 66);
+    width: 200px;
+    height: 60px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+
+
+}
+
+.botao:hover{
+
+    background-color: rgba(145, 241, 0, 0.411);
+
+
+}
+
+
+@media screen and (max-width:1300px){
+
+    .depressao{
+
+        display: block;
+        padding-top: 10%;
+        padding-bottom:10%;
+
+
+    }
+
+    .depressao div{
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30%;
+
+        
+
+    }
+
+    .equipe{
+        margin-right: 30%;
+
+
+    }
+
+    .contato{
+        display: block;
+        height: 1200px;
+
+    }
+
+   
+
+}
+
+@media screen and (max-width:920px){
+
+
+    .depressao{
+
+        display: block;
+        padding-top: 10%;
+        padding-bottom:10%;
+
+
+    }
+
+    .depressao div{
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30%;
+
+        
+
+    }
+
+    .equipe{
+        margin-right: 30%;
+
+
+    }
+
+    .contato{
+        display: block;
+        height: 1000px;
+
+    }
+
+    .org-nav{
+
+        padding-top: 0px;
+
+
+
+    }
+
+    .content{
+
+        height: 900px;
+
+    }
+
+    .sessao1{
+        display: block;
+    }
+
+    .sessao2{
+
+        display: block;
+    }
+
+    .sessao3{
+
+        display: block;
+
+    }
+
+    .texto2{
+
+        float: left;
+        width: 90%;
+
+
+    }
+
+    .texto1{
+
+        width: 90%;
+
+
+    }
+
+    .texto3{
+
+        width: 90%;
+
+
+    }
+
+    .imagem1{
+
+        display: none;
+
+    }
+
+    .imagem2{
+
+        display: none;
+    }
+
+    .imagem3{
+
+        display: none;  
+
+    }
+
+    .contact-text{
+
+        width: 90%;
+
+    }
+
+    .email{
+
+        width: 90%;
+
+
+    }
+
+}
